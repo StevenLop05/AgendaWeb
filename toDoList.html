@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />   
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/contact.css">
+	<link rel="stylesheet" href="./css/toDoList.css">
+    <title>Agenda Web</title>
+</head>
+<body>
+    <nav>
+        <input type="checkbox" name="" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo">AgendaWeb</label>
+        <ul>
+            <li><a href="./contact.html" class="active">Home</a></li>
+            <li><a href="./perfil.html">User</a></li>
+            <li><a href="./newContact.html">New Contact</a></li>        
+            <li><a href="./fav.html">Favorites</a></li>
+            <li><a href="./toDoList.html">Slopes</a></li>
+            <li><a href="./login.html">Exit</a></li>
+        </ul>
+        </nav>
+        <section style="background: url(./img/fondo.png) no-repeat; background-size: cover; height: calc(100vh - 80px);">
+    <header>
+		<!-- <h1>Web Agenda / To Do List</h1> -->
+		<br>
+		<br>
+		<form id="new-task-form">
+			<input type="text" name="new-task-input" id="new-task-input" placeholder="Enter the task" />
+			<input type="submit"id="new-task-submit" value="Add task" />
+		</form>
+	</header>
+	<main>
+		<section class="task-list">
+			<!-- <h2>Tasks</h2> -->
+			<div id="tasks">				
+			</div>
+		</section>
+	</main>
+	</section>
+	<script src="./js/toDoList.js"></script>
+</body>
+</html>
